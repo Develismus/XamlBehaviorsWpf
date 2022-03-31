@@ -23,6 +23,7 @@
     <DefineConstants>WPF;$(DefineConstants)</DefineConstants>
     <UseWPF>true</UseWPF>
     <GenerateNuspecDependsOn>$(GenerateNuspecDependsOn);TimestampNugetPackage</GenerateNuspecDependsOn>
+    <Version>$(VersionPrefix)</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
     <NoWarn>1701;1702;</NoWarn>

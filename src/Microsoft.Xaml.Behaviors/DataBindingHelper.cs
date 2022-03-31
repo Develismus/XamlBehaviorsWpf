@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft. All rights reserved. 
+﻿// Copyright (c) Microsoft. All rights reserved. 
 // Licensed under the MIT license. See LICENSE file in the project root for full license information. 
 namespace Microsoft.Xaml.Behaviors
 {
@@ -12,7 +12,7 @@ namespace Microsoft.Xaml.Behaviors
     /// <summary>
     /// Helper class for managing binding expressions on dependency objects.
     /// </summary>
-    internal static class DataBindingHelper
+    public static class DataBindingHelper
     {
         private static Dictionary<Type, IList<DependencyProperty>> DependenciesPropertyCache = new Dictionary<Type, IList<DependencyProperty>>();
         /// <summary>
